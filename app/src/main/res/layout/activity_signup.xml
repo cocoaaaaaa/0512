@@ -52,6 +52,15 @@
 
         ></EditText>
 
+    <EditText
+        android:id="@+id/et_sort"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="분류"
+
+        ></EditText>
+
     <Button
         android:id="@+id/btn_register"
         android:layout_width="match_parent"
@@ -61,5 +70,10 @@
         >
 
     </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/textView_result" />
 
     ></LinearLayout>
